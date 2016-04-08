@@ -29,7 +29,7 @@ public class GPSListener implements LocationListener {
 
         Date date = new Date();
         String dateString = new SimpleDateFormat("yyyy-MM-dd_hh:mm:ss").format(date);
-        String dirName = "/reading_"+dateString+"/";
+        String dirName = "Adaptiv/reading_"+dateString+"/";
         gpsFile = new FileIO(dirName, GPS_FILE_NAME, context);
         count = 0;
     }

@@ -30,7 +30,7 @@ public class FileIO extends Object{
         this.context = context;
 
         this.dirName = dirName;
-        File d = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), this.dirName);
+        File d = new File(Environment.getExternalStorageDirectory(), this.dirName);
         d.mkdirs();
 
         this.fileName = fileName;
@@ -93,6 +93,11 @@ public class FileIO extends Object{
         catch (IOException e) {
             Log.d("FileIOException", e.toString());
         }
+    }
+
+    public boolean renameTo(String newDir, String newName) {
+        File t = new File(String.format("%s/%s/%s", Environment.getExternalStorageDirectory(), newDir, newName));
+        return f.renameTo(t);
     }
 
     public void close(){
