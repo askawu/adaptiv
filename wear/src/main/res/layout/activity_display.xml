@@ -4,5 +4,7 @@
     android:layout_height="match_parent" android:orientation="vertical"
     tools:context=".MyDisplayActivity" tools:deviceIds="wear">
     <TextView android:id="@+id/text" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:text="@string/hello" />
+        android:layout_height="wrap_content" android:text="@string/hello"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
