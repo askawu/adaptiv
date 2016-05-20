@@ -1,4 +1,4 @@
-package com.example.danielmurray.adaptiv;
+package com.example.danielmurray.adaptiv.activity;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -19,7 +19,6 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.ShareActionProvider;
-import android.support.v7.widget.AppCompatButton;
 import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ListView;
@@ -28,6 +27,12 @@ import android.view.View;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.os.Handler;
+
+import com.example.danielmurray.adaptiv.FileIO;
+import com.example.danielmurray.adaptiv.GPSListener;
+import com.example.danielmurray.adaptiv.KeyValueAdapter;
+import com.example.danielmurray.adaptiv.KeyValueObj;
+import com.example.danielmurray.adaptiv.R;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 

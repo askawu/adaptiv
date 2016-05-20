@@ -6,6 +6,8 @@ import android.location.LocationListener;
 import android.location.LocationProvider;
 import android.os.Bundle;
 
+import com.example.danielmurray.adaptiv.activity.MainActivity;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;

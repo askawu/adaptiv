@@ -1,4 +1,4 @@
-package com.example.danielmurray.adaptiv;
+package com.example.danielmurray.adaptiv.activity;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,6 +17,8 @@ import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
 
+
+import com.example.danielmurray.adaptiv.R;
 
 import java.util.List;
 

@@ -13,8 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.danielmurray.adaptiv.GPSListener;
-import com.example.danielmurray.adaptiv.MainActivity;
 import com.example.danielmurray.adaptiv.R;
 import com.example.danielmurray.adaptiv.model.GPSData;
 import com.example.danielmurray.adaptiv.utilities.GPSConversion;

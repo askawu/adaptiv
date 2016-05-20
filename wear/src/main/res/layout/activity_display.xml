@@ -7,4 +7,11 @@
         android:layout_height="wrap_content" android:text="@string/hello"
         android:gravity="center_vertical|center_horizontal"
         android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/capture"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Capture" />
 </LinearLayout>
